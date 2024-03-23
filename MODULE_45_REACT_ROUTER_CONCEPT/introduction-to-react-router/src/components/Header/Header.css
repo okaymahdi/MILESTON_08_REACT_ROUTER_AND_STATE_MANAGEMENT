@@ -1,3 +1,21 @@
+nav {
+    margin: 30px;
+}
+
 nav a {
     margin-right: 20px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 800;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+nav a.active {
+    text-decoration: underline;
+    color: aliceblue;
+    background-color: chocolate;
 }
