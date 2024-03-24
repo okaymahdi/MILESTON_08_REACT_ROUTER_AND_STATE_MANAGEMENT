@@ -2,8 +2,9 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import RefFrom from './components/RefFrom/RefFrom'
 // import SimpleForm from './components/SimpleForm/SimpleForm'
-import StatefulForm from './components/StatefulForm/StatefulForm'
+// import StatefulForm from './components/StatefulForm/StatefulForm'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -32,7 +33,8 @@ function App() {
       </p> */}
 
       {/* <SimpleForm></SimpleForm> */}
-      <StatefulForm></StatefulForm>
+      {/* <StatefulForm></StatefulForm> */}
+      <RefFrom></RefFrom>
     </>
   )
 }
