@@ -2,7 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import RefFrom from './components/RefFrom/RefFrom'
+import HookForm from './components/HookForm/HookForm'
+// import RefFrom from './components/RefFrom/RefFrom'
 // import SimpleForm from './components/SimpleForm/SimpleForm'
 // import StatefulForm from './components/StatefulForm/StatefulForm'
 
@@ -34,7 +35,8 @@ function App() {
 
       {/* <SimpleForm></SimpleForm> */}
       {/* <StatefulForm></StatefulForm> */}
-      <RefFrom></RefFrom>
+      {/* <RefFrom></RefFrom> */}
+      <HookForm></HookForm>
     </>
   )
 }
